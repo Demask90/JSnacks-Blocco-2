@@ -5,7 +5,7 @@ var first_array = [ "topolino", "pluto", "pippo", "paperino", "17", "ananas", "m
 var second_array = ["aria", "acqua", "fuoco", "terra"];
 var push_element;
 
-if (first_array.length < second_array.length) {
+// if (first_array.length < second_array.length) {
         
     while (first_array.length < second_array.length) {
         do {
@@ -14,15 +14,15 @@ if (first_array.length < second_array.length) {
         first_array.push(push_element);  
     }
 
-} else if (second_array.length < first_array.length) { 
-    
+// } else if (second_array.length < first_array.length) { 
+
     while (second_array.length < first_array.length) {
         do {
             push_element = prompt("inserisci un elemento nel secondo array");
         } while (!isNaN(push_element));
         second_array.push(push_element);  
     }
-}
+// }
 
 console.log(first_array);
 console.log(second_array);
